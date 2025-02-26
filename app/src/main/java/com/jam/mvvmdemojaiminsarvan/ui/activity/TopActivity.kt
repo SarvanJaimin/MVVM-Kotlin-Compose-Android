@@ -1,4 +1,4 @@
-package com.jam.mvvmdemojaiminsarvan
+package com.jam.mvvmdemojaiminsarvan.ui.activity
 
 import android.content.Intent
 import android.os.Bundle

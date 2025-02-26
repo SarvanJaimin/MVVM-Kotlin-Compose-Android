@@ -1,10 +1,10 @@
 package com.jam.mvvmdemojaiminsarvan.di.component
 
-import com.jam.mvvmdemojaiminsarvan.MainActivity
-import com.jam.mvvmdemojaiminsarvan.SearchTopHeadLineActivity
-import com.jam.mvvmdemojaiminsarvan.TopHeadLineActivity
+import com.jam.mvvmdemojaiminsarvan.ui.activity.MainActivity
+import com.jam.mvvmdemojaiminsarvan.ui.activity.SearchTopHeadLineActivity
 import com.jam.mvvmdemojaiminsarvan.di.ActivityModule
 import com.jam.mvvmdemojaiminsarvan.di.ActivityScope
+import com.jam.mvvmdemojaiminsarvan.ui.activity.TopHeadLineActivity
 import dagger.Component
 
 

@@ -6,7 +6,7 @@ import androidx.room.TypeConverters
 import com.jam.mvvmdemojaiminsarvan.data.models.Article
 import com.jam.mvvmdemojaiminsarvan.data.models.RemoteKey
 
-@Database(entities = [Article::class,RemoteKey::class], version = 2)
+@Database(entities = [Article::class,RemoteKey::class], version = 2, exportSchema = false)
 @TypeConverters(SourceTypeConverter::class)
 abstract class ArticleDB : RoomDatabase() {
     abstract fun getArticleDao(): ArticleDAO
